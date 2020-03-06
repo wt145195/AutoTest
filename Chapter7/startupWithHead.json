@@ -1,0 +1,22 @@
+[
+  {
+    "description": "这是模拟带head的post请求",
+    "request": {
+      "uri": "/post/with/head",
+      "method": "post",
+      "json": {
+        "name": "wangwu",
+        "age": "29"
+      },
+      "headers": {
+        "Content-Type": "application/json"
+      }
+    },
+    "response": {
+      "json": {
+        "zhangsan": "success",
+        "status": 200
+      }
+    }
+  }
+]

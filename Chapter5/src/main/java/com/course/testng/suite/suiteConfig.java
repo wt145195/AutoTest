@@ -5,7 +5,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 
-public class testSuit {
+public class suiteConfig {
 
     @BeforeSuite
     public void beforeSuit()

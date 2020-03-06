@@ -1,0 +1,12 @@
+[
+  {
+    "description": "这是第一个接口mock尝试",
+    "request": {
+      "uri": "/demo"
+    },
+    "response":{
+      "text": "这是第一个接口mock尝试的响应"
+    }
+
+  }
+]

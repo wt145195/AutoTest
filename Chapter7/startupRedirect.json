@@ -1,0 +1,19 @@
+[
+  {
+    "description": "重定向网址",
+    "request":
+    {
+      "uri": "/redirect"
+    },
+    "redirectTo": "/newpath"
+  },
+  {
+    "description": "被重定向的新网址",
+    "request": {
+      "uri": "/newpath"
+    },
+    "response": {
+      "text": "重定向成功了！！！！"
+    }
+  }
+]
