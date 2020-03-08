@@ -74,9 +74,9 @@ public class cookieTestForPost {
 
         //创建执行请求的httpclient对象，并且将该对象和cookieStore绑定
         HttpClient client = HttpClients.custom().setDefaultCookieStore(cookieStore).build();
-        //设置请求的参数
-        post.setHeader("content-type","application/json");
         //设置请求头
+        post.setHeader("content-type","application/json");
+        //设置请求的参数
         JSONObject param = new JSONObject();
         param.put("name","zhangsan");
         param.put("sex","man");
